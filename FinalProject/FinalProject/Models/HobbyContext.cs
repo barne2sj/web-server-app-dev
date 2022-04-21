@@ -14,7 +14,8 @@ namespace FinalProject.Models
             modelBuilder.Entity<Hobby>().HasData(
                 new Hobby { HobbyId = 1, HobbyName = "Cooking", HobbyDescription = "Cooking for my family makes me happy" },
                 new Hobby { HobbyId = 2, HobbyName = "Swimming", HobbyDescription = "Swimming in water makes me feel relax" },
-                new Hobby { HobbyId = 3, HobbyName = "Video Games", HobbyDescription = "Playing with my friends" });
+                new Hobby { HobbyId = 3, HobbyName = "Video Games", HobbyDescription = "Playing with my friends" },
+                new Hobby { HobbyId = 4, HobbyName = "Art Journaling", HobbyDescription = "Creating art in my journal allows me to express myself"});
         }
     }
 }
