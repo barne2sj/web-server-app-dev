@@ -28,8 +28,10 @@
             <tr>
                 <td>@hobby.HobbyName</td>
                 <td>@hobby.HobbyDescription</td>
+                <td><a asp-controller="Hobby" asp-action="Edit" asp-route-id="@hobby.HobbyId">Edit</a></td>
+                <td><a asp-controller="Hobby" asp-action="Delete" asp-route-id="@hobby.HobbyId">Delete</a></td>
             </tr>
         }
     </tbody>
 </table>
-
+<a asp-controller="Hobby" asp-action="Add">Add New Hobby</a>
