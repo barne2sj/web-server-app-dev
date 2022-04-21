@@ -1854,24 +1854,25 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.EntityFrameworkCore >= 6.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sara\\.nuget\\packages\\": {}
+    "C:\\Users\\juban\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sara\\source\\repos\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj",
+      "projectUniqueName": "F:\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj",
       "projectName": "FinalProject",
-      "projectPath": "C:\\Users\\Sara\\source\\repos\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj",
-      "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sara\\source\\repos\\web-server-app-dev\\FinalProject\\FinalProject\\obj\\",
+      "projectPath": "F:\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj",
+      "packagesPath": "C:\\Users\\juban\\.nuget\\packages\\",
+      "outputPath": "F:\\web-server-app-dev\\FinalProject\\FinalProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\juban\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1897,6 +1898,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.4, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.4, )"
