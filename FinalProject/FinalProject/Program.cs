@@ -1,4 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
+using FinalProject.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+var Builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("HobbyContext");
+builder.Services.AddDbContext<HobbyContext>(options =>
+   options.UseSqlServer(connectionString));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -23,5 +31,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
 
 app.Run();
