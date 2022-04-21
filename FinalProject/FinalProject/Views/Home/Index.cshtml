@@ -26,6 +26,7 @@
         @foreach (var hobby in Model)
         {
             <tr>
+                <td>@hobby.HobbyId</td>
                 <td>@hobby.HobbyName</td>
                 <td>@hobby.HobbyDescription</td>
                 <td><a asp-controller="Hobby" asp-action="Edit" asp-route-id="@hobby.HobbyId">Edit</a></td>
