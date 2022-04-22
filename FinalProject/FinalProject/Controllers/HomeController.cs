@@ -19,17 +19,6 @@ namespace FinalProject.Controllers
             return View(hobbies);
         }
 
-        public IActionResult Sara()
-        {
-            return View("Sara");
-        }
-        public IActionResult Bangyan()
-        {
-            return View("Bangyan");
-        }
-        public IActionResult Jefferey()
-        {
-            return View("Jeffery");
-        }
+        
     }
 }

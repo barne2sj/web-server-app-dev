@@ -9,15 +9,15 @@
 </div>
 <figure class="figure">
     <img class="profile-img figure-img img-fluid" src="~/images/IMG_20220405_211218_717.jpg" />
-    <figcaption class="figure-caption"><a asp-controller="Home" asp-action="Sara">Sara Barnes</a></figcaption>
+    <figcaption class="figure-caption"><a asp-controller="People" asp-action="Sara">Sara Barnes</a></figcaption>
 </figure>
 <figure class="figure" ALIGN="RIGHT">
     <img class="profile-img figure-img img-fluid" src="~/images/BangyanJu.jpg" />
-    <figcaption class="figure-caption"><a asp-controller="Home" asp-action="Bangyan">Bangyan Ju</a></figcaption>
+    <figcaption class="figure-caption"><a asp-controller="People" asp-action="Bangyan">Bangyan Ju</a></figcaption>
 </figure>
 <figure class="figure" ALIGN="RIGHT">
     <img class="profile-img figure-img img-fluid" src="~/images/image0.jpg" />
-    <figcaption class="figure-caption"><a asp-controller="Home" asp-action="Jefferey">Jeffrey Wallace</a></figcaption>
+    <figcaption class="figure-caption"><a asp-controller="People" asp-action="Jeffrey">Jeffrey Wallace</a></figcaption>
 </figure>
 <table class="table table-bordered">
     <thead>
@@ -33,11 +33,8 @@
                 <td>@hobby.HobbyId</td>
                 <td>@hobby.HobbyName</td>
                 <td>@hobby.HobbyDescription</td>
-                <td><a asp-controller="Hobby" asp-action="Edit" asp-route-id="@hobby.HobbyId">Edit</a></td>
-                <td><a asp-controller="Hobby" asp-action="Delete" asp-route-id="@hobby.HobbyId">Delete</a></td>
             </tr>
         }
     </tbody>
 </table>
-<a asp-controller="Hobby" asp-action="Add">Add New Hobby</a>
 
