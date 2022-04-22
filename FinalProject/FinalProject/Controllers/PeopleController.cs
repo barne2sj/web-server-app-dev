@@ -13,9 +13,9 @@ namespace FinalProject.Controllers
         {
             return View("Bangyan");
         }
-        public IActionResult Jefferey()
+        public IActionResult Jeffrey()
         {
-            return View("Jeffery");
+            return View("Jeffrey");
         }
     }
     }
