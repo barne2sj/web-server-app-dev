@@ -16,7 +16,8 @@ namespace FinalProject.Models
                 new Hobby { HobbyId = 2, HobbyName = "Swimming", HobbyDescription = "Swimming in water makes me feel relax" },
                 new Hobby { HobbyId = 3, HobbyName = "Video Games", HobbyDescription = "Playing with my friends" },
                 new Hobby { HobbyId = 4, HobbyName = "Art Journal", HobbyDescription = "Creating in my art journal allows me to express myself" },
-                new Hobby { HobbyId = 5, HobbyName = "Photography", HobbyDescription = "Taking photos of random things such as buildings." }
+                new Hobby { HobbyId = 5, HobbyName = "Photography", HobbyDescription = "Taking photos of random things such as buildings." },
+                new Hobby { HobbyId = 6, HobbyName = "Films", HobbyDescription = "Watching and analyzing movies while having meaningful discussions." }
                );
         }
     }
