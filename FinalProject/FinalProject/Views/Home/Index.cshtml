@@ -1,5 +1,6 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model List<Hobby>
+@{
+    ViewBag.Title = "Hobbies";
 }
 
 <div class="text-center">
@@ -18,5 +19,25 @@
     <img class="profile-img figure-img img-fluid" src="~/images/image0.jpg" />
     <figcaption class="figure-caption">Jeffrey Wallace</figcaption>
 </figure>
-    
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Hobby</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var hobby in Model)
+        {
+            <tr>
+                <td>@hobby.HobbyId</td>
+                <td>@hobby.HobbyName</td>
+                <td>@hobby.HobbyDescription</td>
+                <td><a asp-controller="Hobby" asp-action="Edit" asp-route-id="@hobby.HobbyId">Edit</a></td>
+                <td><a asp-controller="Hobby" asp-action="Delete" asp-route-id="@hobby.HobbyId">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-controller="Hobby" asp-action="Add">Add New Hobby</a>
 
