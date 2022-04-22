@@ -7,6 +7,11 @@ namespace FinalProject.Controllers
     {
         private HobbyContext context { get; set; }
 
+        public HobbyController(HobbyContext ctx)
+        {
+            context = ctx;
+        }
+
         [HttpGet]
         public IActionResult Add()
         {
