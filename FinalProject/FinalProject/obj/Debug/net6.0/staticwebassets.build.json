@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IBGYTYdfG2Lw+NyN11SxOYyaWZEa0c8v7kD1nwGeNkc=",
+  "Hash": "DYAe3kI5X8G6o4VHxcODcPIV3fgVW2jq56xLYnK31ok=",
   "Source": "FinalProject",
   "BasePath": "_content/FinalProject",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\BangyanJu.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Sara\\source\\repos\\web-server-app-dev\\FinalProject\\FinalProject\\wwwroot\\images\\image0.jpg",
+      "SourceId": "FinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sara\\source\\repos\\web-server-app-dev\\FinalProject\\FinalProject\\wwwroot\\",
+      "BasePath": "_content/FinalProject",
+      "RelativePath": "images/image0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image0.jpg"
     },
     {
       "Identity": "C:\\Users\\Sara\\source\\repos\\web-server-app-dev\\FinalProject\\FinalProject\\wwwroot\\images\\IMG_20220405_211218_717.jpg",
