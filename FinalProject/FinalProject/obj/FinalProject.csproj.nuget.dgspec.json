@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sara\\source\\repos\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj": {}
+    "F:\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sara\\source\\repos\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj": {
+    "F:\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sara\\source\\repos\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj",
+        "projectUniqueName": "F:\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj",
         "projectName": "FinalProject",
-        "projectPath": "C:\\Users\\Sara\\source\\repos\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj",
-        "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sara\\source\\repos\\web-server-app-dev\\FinalProject\\FinalProject\\obj\\",
+        "projectPath": "F:\\web-server-app-dev\\FinalProject\\FinalProject\\FinalProject.csproj",
+        "packagesPath": "C:\\Users\\juban\\.nuget\\packages\\",
+        "outputPath": "F:\\web-server-app-dev\\FinalProject\\FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juban\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
