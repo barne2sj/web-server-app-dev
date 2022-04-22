@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Sara\source\repos\web-server-app-dev\FinalProject\FinalProject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Sara/source/repos/web-server-app-dev/FinalProject/FinalProject/Views/Hobby/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9iYnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sara/source/repos/web-server-app-dev/FinalProject/FinalProject/Views/Hobby/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9iYnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
